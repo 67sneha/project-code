@@ -1,0 +1,130 @@
+.container-fluid {
+    border: 1px solid;
+}
+
+.container {
+    border: 1px solid;
+}
+
+#col1 {
+    border: 1px solid;
+}
+#img1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 18px;
+   
+}
+#threeHead{
+    border: 1px solid;
+    font-weight: 600;
+    font-size: 25px;
+}
+.col-4 {
+border: 1px solid ;
+}
+
+
+@media screen and (min-width:958px) {
+    #col1 {
+        border: 1px solid;
+        
+
+    }
+    #threeHead{
+        font-size: 2px;
+        margin-top: 10px;
+        font-weight: 600;
+         width:20;
+    } 
+    #img1{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .col-4{
+        width:100px
+    }
+}
+
+@media screen and (min-width:788px)  {
+    #threeHead{
+        font-size: 17px;
+        width:140px;
+        margin-left:2px
+    } 
+    #img1{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: -580px;
+       
+    }
+}
+
+@media (max-width:768px) {}
+
+@media screen and (max-width:1215px) {
+    #col1 {
+        border: 1px solid;
+        width: 215px;
+    }
+    #threeHead{
+        font-size: 17px;
+        width:140px;
+        margin-left:2px
+    } 
+    #img1{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: -580px;
+       
+    }
+}
+
+@media screen and (max-width:770px) {
+    #col1 {
+        border: 1px solid;
+        width: 180px;
+        margin:auto;
+    }
+    /* #threeHead{
+        font-size: 14px;
+        margin-top: 0px;
+        font-weight: 600;
+        width:90px;
+        margin-left:2px
+    }  */
+}
+@media screen and (max-width:644px){
+    #col1 {
+        border: 1px solid;
+        width: 140px;
+        height: 170px;
+        margin:auto;
+        font-size: 12px;
+    }
+    /* #threeHead{
+        font-size: 14px;
+        margin-top: 0px;
+        font-weight: 600;
+        width:90px;
+        margin-left:2px
+    }  */
+
+}
+@media screen and (max-width:517px){
+    #col1 {
+        border: 1px solid;
+        width: 200px;
+        height: 120px;
+        margin:auto;
+        margin-top:20px;
+        font-size: 12px;
+    }
+    #head{
+        font-size: 23px;
+    }
+}
