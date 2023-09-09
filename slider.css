@@ -1,0 +1,11 @@
+.container{
+    height: 20px;
+}
+#carouselExampleIndicators{
+    border: 1px solid;
+    padding: 10px;
+}
+.carousel-item{
+    border: 10px solid green;
+    height: 500px;
+}
